@@ -1,4 +1,4 @@
-#This is just a fork for personal use
+# This is just a fork for personal use
 Go to https://github.com/bakkeby/dwm-flexipatch for more info.
 
 
