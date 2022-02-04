@@ -232,6 +232,7 @@ static const char *termcmd[]  = { "alacritty", NULL };
 static Key keys[] = {
 	/* modifier			            key        function        argument */
 	{ MODKEY,                       XK_s,      spawn,          {.v = screenshot} },
+	{ MODKEY,                       XK_Escape, spawn,          {.v = us_kb } },
 	{ MODKEY,                       XK_Escape, spawn,          {.v = slock } },
 	{ MODKEY,                       XK_c,      spawn,          {.v = phone_gallery } },
 	{ Mod1Mask|ShiftMask,           XK_Tab,    kbmanage,       {0}},
